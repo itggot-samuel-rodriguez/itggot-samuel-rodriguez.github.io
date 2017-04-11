@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circus-tors</title>
+    <link rel="stylesheet" type="text/css" href="./css/tours.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="links wow bounceInDown">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="tours.html">Tours</a>
+            <a class="nav-link" href="tales.html">Tales</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="about_us.html">About Us</a>
+        </div>
+    </nav>
+    <div class="overlay wow fadeIn"></div>
+        <div class="sign_center">
+            <ul id="wire">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="sign wow fadeIn">join us on our global tour</div>
+    </div>
+    <div class="page_center">
+        <div class="page">
+            <div class="w3-content w3-section" style="max-width:900px">
+                <img class="mySlides w3-animate-fading" src="./img/slide1.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide5.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide3.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide2.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide4.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide6.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide7.png" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="./img/slide8.png" style="width:100%">
+            </div>
+            
+            
+            
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+
+        
+        </div>
+    </div>
+    
+      <div class="page_center">
+        <div class="page2">
+            <hr>
+            <div class="p-column-container">
+                <p class="tour-list">tour list</p>
+                <p class="p-column">
+                     <strong>Madrid</strong> - 2017-01-18
+                </p>
+                <p class="p-column">
+                     <strong>Oslo</strong> - 2017-02-30
+                </p>
+                    <p class="p-column">
+                     <strong>Berlin</strong> - 2017-03-26
+                    </p>
+                    <p class="p-column">
+                     <strong>Gothenburg</strong> - 2017-05-16
+                    </p>
+                    <p class="p-column">
+                    <strong>Paris</strong> - 2017-08-04
+                    </p>
+                    <p class="p-column">
+                     <strong>New York</strong> - 2017-08-31
+                    </p>
+                    <p class="p-column">
+                     <strong>Tokyo</strong> - 2017-09-21
+                    </p>
+                    <p class="p-column">
+                     <strong>Buenos Aires</strong> - 2017-11-04
+                    </p>
+                
+            </div>
+        </div>
+      </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/functions.js"></script>
+</body>
+</html>
